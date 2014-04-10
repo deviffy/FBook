@@ -1,0 +1,26 @@
+{
+    "name": "deviffy/fbook",
+    "type": "library",
+    "description": "Facebook SDK for Silex micro-framework",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Catalin Dumitrescu",
+            "homepage": "https://github.com/deviffy"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "facebook/php-sdk": "~3.2.*"
+    },
+    "autoload": {
+        "psr-0": { "FBook": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
+
