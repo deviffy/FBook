@@ -507,7 +507,8 @@ EOD;
           }
         }
 
-        return $this->getRequest()->getBaseUrl().$this->getRequest()->getPathInfo().$query;
+        return $this->getRequest()->getPathInfo().$query;
+        //return $this->getRequest()->getBaseUrl().$this->getRequest()->getPathInfo().$query;
         // return $this->getRequest()->getBaseUrl().$this->getRequest()->getPathInfo();
     }
 
